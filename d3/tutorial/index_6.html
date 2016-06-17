@@ -1,0 +1,36 @@
+<doctype html>
+<html>
+
+<head>
+	<title>D3 Tutorial</title>
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+
+	<!-- Start of d3 script -->
+	<script>
+	
+		d3.json("data.json", function (data) { 
+		
+			var canvas = d3.select("body").append("svg")
+				.attr("width", 500)
+				.attr("height", 500)
+				
+		canvas.selectAll("rect")
+			.data(data)
+			.enter()
+				.append("rect")
+				.attr("width", function (d) { return d.age * 10; })
+				.attr("height", 50)
+				.attr("y", function(d, i) { return i * 50; })
+				.attr("fill", "blue")
+		})
+
+	</script>
+	
+
+</body>
+
+</html>

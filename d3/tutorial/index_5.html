@@ -1,0 +1,41 @@
+<doctype html>
+<html>
+
+<head>
+	<title>D3 Tutorial</title>
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+
+	<!-- Start of d3 script -->
+	<script>
+	
+	var canvas = d3.select("body")
+				.append("svg")
+				.attr("width", 500)
+				.attr("height", 500);
+
+				
+	var circle = canvas.append("circle")
+				.attr("cx", 50)
+				.attr("cy", 50)
+				.attr("r", 25);
+					
+	circle.transition()
+		.duration(1500) //in milsecs
+		.attr("cx", 150)
+		.each("end", function () { d3.select(this).attr("fill", "red"); })
+		.transition()
+		.attr("cy", 200)
+		.each("end", function () { d3.select(this).attr("fill", "green"); });
+	
+	console.log()
+
+	</script>
+	
+
+</body>
+
+</html>
