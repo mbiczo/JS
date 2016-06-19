@@ -4,18 +4,34 @@
 <title></title>
 </head>
 <body>
-	<h1>Well, hello there...</h1>    
+	<h1 id= "mainHeader">Well, hello there...is this a link?</h1>    
     	<p>
     	This is a very simple HTML page for testing JavaScript.
     	</p>
 
-	<p>It's about as basic as they come. It has:<p>
+	<p id= "myParagraph">It's about as basic as they come. It has:<p>
 
-	<ul>
+	<ul id= "myList">
 		<li>An H1 Tag</li>
 		<li>Two paragraphs</li>
 		<li>An unordered list</li>
 	</ul>
+	
+	<ul id= "myOtherList">
+		<li>Another list item</li>
+		<li>Another list item</li>
+		<li>Another list item</li>
+	</ul>
+	
+	<img src= "../images/image1.jpg" id= "coolImage" alt= "image" height="42" width="42">
+	
+	<input id= "myInput" placeholder= "placeholder"></input>
+	
+	<button id= "myButton">This does nothing</button>
+	
+	<!-- Event Listening Method 1 -->
+	<button onclick="alert('Hello World')">Some JavaScript</button>
+	
 	
 	<script src= "../js/script.js"></script>
 </body>

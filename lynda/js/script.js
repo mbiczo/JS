@@ -288,6 +288,7 @@ var player3 = { name: "James", score: 1, rank: 2};
 
 
 
+<<<<<<< HEAD
 function playerDetails() {
 	// display information about each player
 	console.log(this.name + " has a rank of: " +  //uses 'this' to refer to itself
@@ -297,6 +298,178 @@ function playerDetails() {
 // Map a method variable to a function
 player1.logDetails = playerDetails;
 player2.logDetails = playerDetails;
+=======
+/***********
+DOM Access
+***********/
+
+
+/****************
+Viewing Objects
+****************/
+console.log("DOM Access")
+
+// Get element by ID
+var myElement = document.getElementById("mainHeader");
+
+console.log("Selected Element:", myElement);
+console.log("NodeType:", myElement.nodeType);
+console.log("NodeName:", myElement.nodeName);
+console.log("InnerHTML:", myElement.innerHTML);
+console.log("Child nodes:", myElement.childNodes);
+
+
+// Get ALL element by Tag name
+var myElements = document.getElementsByTagName("li");
+
+console.log(myElements);
+
+// Chain variables together to specify elements/tags
+var myElement = document.getElementById("myList");
+var myListItems = myElement.getElementsByTagName("li");
+
+console.log("Chained list items:", myListItems);
+
+
+
+/***************
+Editing Objects
+****************/
+
+// Create handle to object
+var selectedParagraph = document.getElementById("myParagraph");
+
+console.log(selectedParagraph);
+
+// Set attribute
+selectedParagraph.setAttribute("align", "center");
+
+// Disable a button
+var selectedButton = document.getElementById("myButton");
+
+selectedButton.setAttribute("disabled", "disabled");
+
+
+/*****************
+Creating Objects
+*****************/
+
+// Grab handle on parent node/element - if needed
+var myElement = document.getElementById("myOtherList");
+
+// Create the element
+var myNewElement = document.createElement("li");
+
+// Add new [child] element to document and assign inner HTML
+myElement.appendChild(myNewElement);
+myNewElement.innerHTML = "New list item created (inner HTML)"  //not best practice
+
+// Better practice to append a text node/element
+var myText = document.createTextNode("New text node created (text node)");
+myNewElement.appendChild(myText);
+
+// Insert element inbetween others
+var secondListItem = myElement.getElementsByTagName("li")[1];
+myElement.insertBefore(myNewElement, secondListItem);
+
+
+/***************************
+Events and Event Listeners
+****************************/
+
+console.log("Events and Event Listeners")
+
+// Method 1
+// directly in HTML file: <button onclick="alert('Hello World')">text</button>
+
+
+// Method 2 - Create an anonymous function to be called
+var myElement = document.getElementById("mainHeader")
+myElement.onclick = function() {
+	alert("hello, you just clicked my header!");
+};  //don't forget semicolon
+
+// Method 3 - add an event listener
+function myFunction( ) {
+	alert("Event Listener: you just clicked your mouse!");
+}
+
+// Does not work in IE < 9; use JQuery library instead
+//document.addEventListener('click', myFunction, false);
+
+
+// Good practice to use the window.onload method to be sure that all content is loaded
+
+function prepareEventHandlers() {
+	var myImage = document.getElementById("coolImage");
+	myImage.onclick = function() {
+		alert("You just clicked the cool image!");
+	}
+}
+
+// Be sure page is loaded before parsing function.
+window.onload = function () {
+	prepareEventHandlers();
+}
+
+
+// Working with forms - onblur/onfocus
+var myInput = document.getElementById("myInput");
+myInput.onblur = function () {
+	if ( myInput.value == "") {
+		alert("using onblur: you didn't type anything in!")
+	}
+};
+
+
+/********************
+Working with Timers
+********************/
+
+// Set one time delay
+
+function delayedAlert() {
+	alert("This is a 2 sec delayed alert using setTimeout");
+}
+
+// Set timeout in milliseconds
+setTimeout(delayedAlert, 2000);
+
+
+// Set an interval delay
+
+var myImage = document.getElementById("coolImage");
+
+var imageArray = ["../images/image1.jpg", "../images/image2.png",
+				  "../images/image3.jpg", "../images/image4.jpg"];
+				  
+var imageIndex = 0;
+
+
+function changeImage() {
+	myImage.setAttribute("src", imageArray[imageIndex]);
+	imageIndex++;
+	if (imageIndex >= imageArray.length) {
+		imageIndex = 0;
+	}
+}
+
+// setInterval is also milliseconds
+setInterval(changeImage, 5000);
+
+// Use clearTimeout and clearInterval to stop the timer
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 63c4c918e7d530040276077e8aac641ba976f529
 
 // Call mapped funcitons
 console.log(player1.logDetails());
