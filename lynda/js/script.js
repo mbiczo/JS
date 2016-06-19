@@ -288,7 +288,6 @@ var player3 = { name: "James", score: 1, rank: 2};
 
 
 
-<<<<<<< HEAD
 function playerDetails() {
 	// display information about each player
 	console.log(this.name + " has a rank of: " +  //uses 'this' to refer to itself
@@ -298,7 +297,7 @@ function playerDetails() {
 // Map a method variable to a function
 player1.logDetails = playerDetails;
 player2.logDetails = playerDetails;
-=======
+
 /***********
 DOM Access
 ***********/
@@ -459,17 +458,6 @@ setInterval(changeImage, 5000);
 
 // Use clearTimeout and clearInterval to stop the timer
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> 63c4c918e7d530040276077e8aac641ba976f529
 
 // Call mapped funcitons
 console.log(player1.logDetails());
