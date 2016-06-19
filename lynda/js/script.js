@@ -272,21 +272,35 @@ if ( date1.getTime() == date2.getTime() ) {
 Objects
 ********/
 
-var player = new Object();
+
+// Create new object using object
+var player1 = new Object();
 
 // Set variable properties
-player.name = "Fred";
-player.score = 23;
-player.rank = 1;
+player1.name = "Fred";
+player1.score = 23;
+player1.rank = 1;
 
-console.log("Player:", player);
+console.log("Player:", player1);
 
-var player2 = { name: "Fred", score: 23, rank: 1};
+var player2 = { name: "Susan", score: 10, rank: 3};
 var player3 = { name: "James", score: 1, rank: 2};
 
 
 
+function playerDetails() {
+	// display information about each player
+	console.log(this.name + " has a rank of: " +  //uses 'this' to refer to itself
+	this.rank + " and a score of " + this.score);
+}
 
+// Map a method variable to a function
+player1.logDetails = playerDetails;
+player2.logDetails = playerDetails;
+
+// Call mapped funcitons
+console.log(player1.logDetails());
+console.log(player2.logDetails());
 
 
 
