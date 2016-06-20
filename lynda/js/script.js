@@ -17,7 +17,7 @@ Control Flow
 
 // Basic conditional code - can be nested, however flat may be better.
 if ( a > 0 ) {
-	// code goes here.
+    // code goes here.
 	console.log("a is greater than 0!");
 } else if  ( a == 0 ) {
 	// otherwise if...
@@ -289,7 +289,7 @@ var player3 = { name: "James", score: 1, rank: 2};
 
 
 function playerDetails() {
-	// display information about each player
+    // display information about each player
 	console.log(this.name + " has a rank of: " +  //uses 'this' to refer to itself
 	this.rank + " and a score of " + this.score);
 }
@@ -462,6 +462,144 @@ setInterval(changeImage, 5000);
 // Call mapped funcitons
 console.log(player1.logDetails());
 console.log(player2.logDetails());
+
+
+/*********
+Forms
+*********/
+
+console.log("Working with Forms")
+
+// Works when you give an ID value to form tag
+console.log("print whole form:", document.forms.myForm);
+
+// Works when you use the 'name' attribute of the form fields
+console.log("print the specific form element:", document.forms.myForm.email);
+
+// Use getElementById to grab value (you can also use the above methods as well!)
+console.log("get form element by id (blank if no value):", document.getElementById("email").value);
+
+// event properties
+// onblur, onfocus, onchange, onkeypress, onkeydown, onkeypress, onsubmit, checked
+
+
+
+/*******************
+Working with Styles
+*******************/
+
+// Can use normal CSS properties after 'style'
+myParagraph.style.color = "red";
+
+// dashes become camelCase background-color == backgroundColor
+myParagraph.style.backgroundColor = "yellow";
+
+// Applying existing CSS classes to elements
+document.getElementById("myParagraph").className = "myCSSClass";
+
+document.getElementById("movingBox").style.height= "100px";
+document.getElementById("movingBox").style.width= "100px";
+document.getElementById("movingBox").style.background= "black";
+
+
+/*************************
+Code Style Best Practices
+**************************/
+
+// Use camelCase w/ first letter lowercase (ex) variables, functions & methods
+var score;
+var highScore;
+
+// Objects use uppercase first letter
+Math, Date
+
+// Define functions before you call them
+
+// Always use semicolons
+
+// Always use var
+
+// Always use code blocks {}
+
+
+/******************
+Code minification
+******************/
+
+// Removes comments, shortens variable names, removes whitespace, lessens page load time
+
+// Popular tools:
+
+    // JSMin, YUI Compressor, Google Closure Compiler
+
+
+/*********************
+JavaScript Libraries
+*********************/
+
+// General Purpose Library Examples:
+    // Google Closure
+    // MooTools
+    // Yahoo Dev Network
+    // JQuery
+	
+// More Secific Libraries available as well
+
+
+/***************
+JQuery Examples
+***************/
+
+document.getElementById("movingBox").style.background = "blue";
+
+
+// Hide all list items in 10 seconds
+jQuery("li").hide(10000);
+
+// Use jQuery alias - '$'
+$("h2").click(function () {
+	$(this).text("You clicked me!");
+});
+
+
+// Use Page load events to avoid overwriting in natural JS
+$(document).ready(function () {
+	console.log("the page has fully loaded");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
