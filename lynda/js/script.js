@@ -568,24 +568,73 @@ $(document).ready(function () {
 });
 
 
+/*****************
+Feature Detection
+*****************/
+
+if ( document.getElementByClassName ) {
+    // it exists, we can use it.
+}  else {
+    // no browser support, so do...
+}
 
 
+/**********
+Modernizr
+**********/
+
+// When used can provide a nice boolean lookup of HTML5 and CSS3 features
+// telling whether or not the client's browser can support or not.
+
+// Simple call:
+// if ( Modernizr.video ) {
+    // yes, it exists, use HTML5 video
+//} else {
+    // replace it with a different feature
+//}
 
 
+/********************
+Poor JS to watch for
+********************/
+
+// document.write("some text");  // use innerhtml or manipulate the text node
 
 
+// Browser sniffers
+
+// eval
+
+// pseudo-protocols
+//<a href= "javascript:someFunction()">This</a>
 
 
+/************
+AJAX Example
+************/
+// 1 Create the request (object)
+// 2 Handle any response (object)
 
 
+// Create Request
+var myRequest;
 
+// feature check
+if ( window.XMLHttpRequest ) {  // firefox, Safari, etc...Chrome?
+    myRequest = new XMLHttpRequest();
+} else if ( window.ActiveXObject ) {  // if not, we're in IE
+    myRequest = new ActiveXObject("Microsoft.XMLHTTP");
+}
 
+// Create event handeler for our request to call back
+myRequest.onreadystatechange = function() {
+    console.log("We were called!");
+};
 
-
-
-
-
-
+// Configure and send
+myRequest.open("GET", "data.txt", true);  // GET request, to file, true for ajax
+// Include parameters if necessary
+myRequest.send(null);
 
 
 
