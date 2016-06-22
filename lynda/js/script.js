@@ -389,9 +389,9 @@ myElement.onclick = function() {
 };  //don't forget semicolon
 
 // Method 3 - add an event listener
-function myFunction( ) {
-	alert("Event Listener: you just clicked your mouse!");
-}
+//function myFunction( ) {
+//	alert("Event Listener: you just clicked your mouse!");
+//}
 
 // Does not work in IE < 9; use JQuery library instead
 //document.addEventListener('click', myFunction, false);
@@ -428,11 +428,11 @@ Working with Timers
 // Set one time delay
 
 function delayedAlert() {
-	alert("This is a 2 sec delayed alert using setTimeout");
+	alert("This is a 20 sec delayed alert using setTimeout");
 }
 
 // Set timeout in milliseconds
-setTimeout(delayedAlert, 2000);
+setTimeout(delayedAlert, 20000);
 
 
 // Set an interval delay
@@ -631,7 +631,7 @@ if ( window.XMLHttpRequest ) {  // firefox, Safari, etc...Chrome?
 myRequest.onreadystatechange = function() {
     console.log("We were called!");
     console.log(myRequest.readyState);
-      if ( myRequest.readyState === 4) {
+      if ( myRequest.readyState === 4) { 
         var p = document.createElement("p");
         var t = document.createTextNode(myRequest.responseText);
         p.appendChild(t);
@@ -648,22 +648,46 @@ myRequest.send(null);
 // Subsequent code will continue running; not waiting for response to return...
 
 
+/***********
+Prototypes
+***********/
+
+// Allows you to create custom class-like objects as well as methods (using prototype)
 
 
+console.log("Prototype Example");
+
+// Use uppercase when creating and naming Objects using Constructors
+function Player(n, s, r) {
+    this.name = n;
+    this.score = s;
+    this.rank = r;
+}
+
+// Create a couple new objects named fred and susan
+var fred = new Player("Fred", 100, 1);
+var susan = new Player("Susan", 1, 2);
+
+// manually add attributes to object
+//fred.rank = 1;
 
 
+// Use prototype property of object to attach new function/method
+Player.prototype.logInfo = function() {
+    console.log("I am:", this.name);
+}
 
 
+Player.prototype.demote = function() {
+    console.log("My previous rank was ", this.rank);
+    this.rank++;
+    console.log("My I got demoted to rank ", this.rank);
+}
 
+// Call methods
+fred.logInfo()
 
-
-
-
-
-
-
-
-
+susan.demote()
 
 
 
