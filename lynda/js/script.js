@@ -615,6 +615,7 @@ AJAX Example
 // 1 Create the request (object)
 // 2 Handle any response (object)
 
+console.log("AJAX Example Start");
 
 // Create Request
 var myRequest;
@@ -629,15 +630,22 @@ if ( window.XMLHttpRequest ) {  // firefox, Safari, etc...Chrome?
 // Create event handeler for our request to call back
 myRequest.onreadystatechange = function() {
     console.log("We were called!");
+    console.log(myRequest.readyState);
+      if ( myRequest.readyState === 4) {
+        var p = document.createElement("p");
+        var t = document.createTextNode(myRequest.responseText);
+        p.appendChild(t);
+        document.getElementById("mainContent").appendChild(p);
+    }
 };
 
 // Configure and send
-myRequest.open("GET", "data.txt", true);  // GET request, to file, true for ajax
+myRequest.open('GET', 'data.txt', true);  // GET request, to file, true for ajax
 // Include parameters if necessary
 myRequest.send(null);
 
 
-
+// Subsequent code will continue running; not waiting for response to return...
 
 
 
