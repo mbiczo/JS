@@ -384,9 +384,9 @@ console.log("Events and Event Listeners")
 
 // Method 2 - Create an anonymous function to be called
 var myElement = document.getElementById("mainHeader")
-myElement.onclick = function() {
+myElement.onclick = function() {  // anonymous function
 	alert("hello, you just clicked my header!");
-};  //don't forget semicolon
+};  //don't forget semicolon!
 
 // Method 3 - add an event listener
 //function myFunction( ) {
