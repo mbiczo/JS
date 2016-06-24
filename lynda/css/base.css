@@ -1,0 +1,232 @@
+/***********************************************/
+/* Contains the Default or base styles for CUBI*/
+/* After prototype, breakout css into apps     */
+/***********************************************/
+
+a {
+	color: #FF4500;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #00b290;
+}
+
+
+a.aculogo {
+	background: url(images/ACULogoLightGrey.svg);
+	display: block;
+	height: 100px;
+	width: 100px;
+	
+}
+
+
+a.aculogo:hover {
+	background: url(images/ACULogoGrey.svg);
+	border-bottom: none;	
+}
+
+
+a.cubilogo {
+	display: block;
+	max-width: 240px;
+}
+
+
+body section {
+	clear: both;
+	padding: 1%;
+	min-height: 100vh;
+}
+
+
+h1, h2, h3, p {
+	line-height: 1.5em;
+	margin: 1%;	
+}
+
+
+footer {
+	background-color: #ff9a75;	/* Light Orange */
+	color: #fff; 				/* White */
+	font-size: 0.6em;
+	height: 100px;
+	padding: 20px;
+}
+
+
+footer a {
+	color: #fff;	/* White */
+}
+
+
+footer a:hover {
+	color: #DFFF00;	/* Chartreuse, baby! */
+}
+
+
+footer p {
+	padding: 5px;
+	margin: 0;
+}
+
+
+header {
+	float: left;
+}
+
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+}
+
+
+img {
+	height: auto;
+	margin: 5% 5%;
+	max-width: 800px;
+	width: 100%;
+}
+
+
+nav {
+	background: #ffffff;
+	border-bottom: 2px solid #f2f2f2;	/* Light Grey */
+	opacity: 0.8;
+	padding: 1%;
+	padding-right: 15%;
+	position: fixed;
+	right: 0px;
+	z-index: 100;
+}
+
+
+nav a {
+	padding: 5px; 10px;
+}
+
+
+nav a:hover {
+	border-bottom: 5px solid #00b290;
+}
+
+
+nav li {	
+	display: inline;
+}
+
+
+p {
+	font-size: 0.75em;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+
+table {
+	font-size: 0.5em;
+	margin: 75px 0 50px 0px;	/* top right bottom left (clockwise) */
+	
+}
+
+
+th {
+	background-color: #00b290;	/* Orange */
+	color: #fff; 			/* White */
+}
+
+
+th, td{
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+	text-align: left;
+}
+
+
+tr:hover {
+	background-color: #f5f5f5;	/* Green */
+}
+
+
+/*********************/
+/*  Class Selectors  */
+/*********************/
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+
+.cubi-tip {
+	background-color: #fcffe6;	/* Chartreuse 95% */
+	border-bottom: 5px dotted #dfff00;
+}
+
+
+.current-page {
+	border-bottom: 5px solid #00b290;
+	color: #00b290;
+}
+
+
+.doc-search {
+	background: #1E3C4C;
+	margin-top: 50px;
+	padding: 25px;
+}
+
+
+.embeded-container {
+	height: 100%;
+	margin: 1%;
+}
+
+
+input[type=text] {
+    width: 450px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.icon {
+	display: inline;
+	max-width: 200px;
+}
+
+
+.table-center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+
+.quote {
+	font-style: italic;	
+}
+
+
+.white-text {
+	color: white;
+}
