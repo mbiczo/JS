@@ -6,14 +6,30 @@
 
 	<meta charset= "utf-8"/>
 	
-	<title>AJAX Eample Page</title>
+	<title>LiveSearch</title>
+	
+	<link rel= "stylesheet" href= "../css/reset.css" />
+	<link rel= "stylesheet" href= "../css/base.css" />
 	
 </head>
 
 <body id= "body">
 
-	<h1>Simple HTML Page for ajax testing</h1>
+	<h1>Simple LiveSearch Test</h1>
 	
+	<div id= "searchContainer">
+		
+		<p>Type in categories or field names to explore</p>
+		<input type= "search", name= "search", id= "search" placeholder= "Enter Data Fields"/>
+	
+	</div>
+	
+	<!-- Load jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"   
+			integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   
+			crossorigin="anonymous"></script>
+	
+	<!-- LiveSearch script -->
 	<script src= "../js/liveSearch.js"></script>
 	
 </body>
