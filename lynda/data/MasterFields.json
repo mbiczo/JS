@@ -1,0 +1,3107 @@
+{
+    "AccountChargeOffFlag": {
+        "ID": 59785,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountCloseDate": {
+        "ID": 74965,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountCloseFlag": {
+        "ID": 15970,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountClosedYearsAgo": {
+        "ID": 64615,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountMonthsOpened": {
+        "ID": 1480,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountNumber": {
+        "ID": 3895,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountOpenDate": {
+        "ID": 86695,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountOpenedYearsAgo": {
+        "ID": 35980,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountPrematureCloseFlag": {
+        "ID": 39085,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountType": {
+        "ID": 86005,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "AccountTypeDescription": {
+        "ID": 23905,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchAssignment": {
+        "ID": 78415,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchCity": {
+        "ID": 113260,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchExt": {
+        "ID": 68410,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchGeoCodeType": {
+        "ID": 13555,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchLatitude": {
+        "ID": 83590,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchLongitude": {
+        "ID": 43225,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchName": {
+        "ID": 44950,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchState": {
+        "ID": 72550,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchStreet": {
+        "ID": 56335,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "BranchZip": {
+        "ID": 104980,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ChargeOffFlag": {
+        "ID": 15625,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ChargeOffSSN": {
+        "ID": 86350,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactCity": {
+        "ID": 69790,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactEmail": {
+        "ID": 11485,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactHomePhone": {
+        "ID": 108430,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactMobilePhone": {
+        "ID": 30805,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactNameType": {
+        "ID": 89110,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactNameTypeDescription": {
+        "ID": 88075,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactParentAccount": {
+        "ID": 22180,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactState": {
+        "ID": 14935,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactStreet": {
+        "ID": 81520,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactWorkPhone": {
+        "ID": 7000,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ContactZipcode": {
+        "ID": 35290,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISAccuracy": {
+        "ID": 79795,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISActiveLocationFlag": {
+        "ID": 1135,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISDescription": {
+        "ID": 68065,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISFullAddress": {
+        "ID": 114985,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISGeoCodeAddressType": {
+        "ID": 47365,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISGeoCodeDatetime": {
+        "ID": 101185,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISGeoCodeScore": {
+        "ID": 113605,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISGeoLocatorType": {
+        "ID": 116710,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISLatitude": {
+        "ID": 2860,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISLocationID": {
+        "ID": 27355,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISLongitude": {
+        "ID": 104290,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISMaxLatitude": {
+        "ID": 12175,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISMaxLongitude": {
+        "ID": 13900,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISMinLatitude": {
+        "ID": 33910,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISMinLongitude": {
+        "ID": 44260,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISNameType": {
+        "ID": 53230,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISOrganization": {
+        "ID": 59095,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISParentAccount": {
+        "ID": 33220,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "GISReturnAddress": {
+        "ID": 7345,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanDenialFlag": {
+        "ID": 31495,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanDenialSSN": {
+        "ID": 71170,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanModFlag": {
+        "ID": 2170,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanModSSN": {
+        "ID": 45295,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingCreationDate": {
+        "ID": 30115,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingCreationTime": {
+        "ID": 103945,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingExpirationDate": {
+        "ID": 118435,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingLastFMDate": {
+        "ID": 53575,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingNumber": {
+        "ID": 82210,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingOrdinal": {
+        "ID": 112225,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingParentAccount": {
+        "ID": 34600,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingParentID": {
+        "ID": 6655,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingRecordChangeDate": {
+        "ID": 97045,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingType": {
+        "ID": 84970,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingTypeDescription": {
+        "ID": 106360,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount1": {
+        "ID": 116365,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount10": {
+        "ID": 25285,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount11": {
+        "ID": 103600,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount12": {
+        "ID": 46330,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount13": {
+        "ID": 18730,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount14": {
+        "ID": 91870,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount15": {
+        "ID": 114640,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount16": {
+        "ID": 5275,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount17": {
+        "ID": 69445,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount18": {
+        "ID": 94630,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount19": {
+        "ID": 101875,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount2": {
+        "ID": 18040,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount20": {
+        "ID": 72895,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount3": {
+        "ID": 28735,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount4": {
+        "ID": 92905,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount5": {
+        "ID": 71515,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount6": {
+        "ID": 38050,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount7": {
+        "ID": 66340,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount8": {
+        "ID": 49780,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserAmount9": {
+        "ID": 3205,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar1": {
+        "ID": 87040,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar10": {
+        "ID": 93250,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar11": {
+        "ID": 5965,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar12": {
+        "ID": 67720,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar13": {
+        "ID": 19420,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar14": {
+        "ID": 60475,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar15": {
+        "ID": 111190,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar16": {
+        "ID": 77380,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar17": {
+        "ID": 77035,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar18": {
+        "ID": 51160,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar19": {
+        "ID": 79105,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar2": {
+        "ID": 99805,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar20": {
+        "ID": 70135,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar3": {
+        "ID": 51505,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar4": {
+        "ID": 37015,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar5": {
+        "ID": 7690,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar6": {
+        "ID": 77725,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar7": {
+        "ID": 61855,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar8": {
+        "ID": 32875,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserChar9": {
+        "ID": 36325,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate1": {
+        "ID": 13210,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate10": {
+        "ID": 110155,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate11": {
+        "ID": 74275,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate12": {
+        "ID": 118780,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate13": {
+        "ID": 98425,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate14": {
+        "ID": 41845,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate15": {
+        "ID": 112570,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate16": {
+        "ID": 109120,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate17": {
+        "ID": 65650,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate18": {
+        "ID": 6310,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate19": {
+        "ID": 73930,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate2": {
+        "ID": 28390,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate20": {
+        "ID": 29425,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate3": {
+        "ID": 81175,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate4": {
+        "ID": 47020,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate5": {
+        "ID": 100495,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate6": {
+        "ID": 21145,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate7": {
+        "ID": 71860,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate8": {
+        "ID": 4585,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserDate9": {
+        "ID": 100,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber1": {
+        "ID": 45640,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber10": {
+        "ID": 42190,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber2": {
+        "ID": 96355,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber3": {
+        "ID": 73240,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber4": {
+        "ID": 113950,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber5": {
+        "ID": 32530,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber6": {
+        "ID": 107740,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber7": {
+        "ID": 74620,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber8": {
+        "ID": 8035,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserNumber9": {
+        "ID": 8725,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate1": {
+        "ID": 46675,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate10": {
+        "ID": 87730,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate11": {
+        "ID": 84625,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate12": {
+        "ID": 55300,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate13": {
+        "ID": 75655,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate14": {
+        "ID": 111535,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate15": {
+        "ID": 37705,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate16": {
+        "ID": 89800,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate17": {
+        "ID": 99460,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate18": {
+        "ID": 27010,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate19": {
+        "ID": 90490,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate2": {
+        "ID": 105670,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate20": {
+        "ID": 48745,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate3": {
+        "ID": 50815,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate4": {
+        "ID": 4930,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate5": {
+        "ID": 60820,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate6": {
+        "ID": 76690,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate7": {
+        "ID": 18385,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate8": {
+        "ID": 51850,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUserRate9": {
+        "ID": 24940,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode1": {
+        "ID": 17350,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode10": {
+        "ID": 36670,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode11": {
+        "ID": 100150,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode12": {
+        "ID": 20800,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode13": {
+        "ID": 9415,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode14": {
+        "ID": 55990,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode15": {
+        "ID": 83935,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode16": {
+        "ID": 8380,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode17": {
+        "ID": 57370,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode18": {
+        "ID": 54955,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode19": {
+        "ID": 79450,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode2": {
+        "ID": 20110,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode20": {
+        "ID": 61165,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode3": {
+        "ID": 108085,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode4": {
+        "ID": 57025,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode5": {
+        "ID": 93595,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode6": {
+        "ID": 106015,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode7": {
+        "ID": 107395,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode8": {
+        "ID": 49090,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsercode9": {
+        "ID": 87385,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber11": {
+        "ID": 97390,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber12": {
+        "ID": 29080,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber13": {
+        "ID": 17005,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber14": {
+        "ID": 58750,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber15": {
+        "ID": 84280,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber16": {
+        "ID": 14590,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber17": {
+        "ID": 54610,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber18": {
+        "ID": 34255,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber19": {
+        "ID": 43915,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "LoanTrackingUsernumber20": {
+        "ID": 65305,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameType": {
+        "ID": 26320,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeAddressChangeDate": {
+        "ID": 42535,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeBirthDate": {
+        "ID": 82555,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeCity": {
+        "ID": 10105,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeDeathDate": {
+        "ID": 94975,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeDescription": {
+        "ID": 107050,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeEmail": {
+        "ID": 25630,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeExpiration": {
+        "ID": 44605,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeExtraAddress": {
+        "ID": 78760,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeFistName": {
+        "ID": 42880,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeHomePhone": {
+        "ID": 40810,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeLastName": {
+        "ID": 790,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeLocator": {
+        "ID": 38740,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeMailOverride": {
+        "ID": 58060,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeMiddleName": {
+        "ID": 104635,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeMobilePhone": {
+        "ID": 101530,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeOrdinal": {
+        "ID": 115675,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeParentAccount": {
+        "ID": 115330,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeSSN": {
+        "ID": 75310,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeSSNType": {
+        "ID": 98080,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeState": {
+        "ID": 29770,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeStreet": {
+        "ID": 99115,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeSuffix": {
+        "ID": 37360,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeTitle": {
+        "ID": 117400,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeWorkPhone": {
+        "ID": 67030,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeWorkPhoneExtension": {
+        "ID": 118090,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "NameTypeZipcode": {
+        "ID": 102220,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "OpenPromoFlag": {
+        "ID": 61510,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "OpenPromoSSN": {
+        "ID": 64270,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "PrimaryFirst": {
+        "ID": 11140,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "PrimaryLast": {
+        "ID": 80485,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "PrimaryMiddle": {
+        "ID": 10450,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "PrimarySSN": {
+        "ID": 4240,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductApplicableScorecard": {
+        "ID": 22870,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductBSCat": {
+        "ID": 41155,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductBalance": {
+        "ID": 116020,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductBranch": {
+        "ID": 15280,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCategory": {
+        "ID": 68755,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCategoryID": {
+        "ID": 33565,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductChargeOffAmount": {
+        "ID": 70480,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductChargeOffDate": {
+        "ID": 35635,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductChargeOffFlag": {
+        "ID": 73585,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductChargeOffType": {
+        "ID": 63235,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCloseDate": {
+        "ID": 88765,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCloseFlag": {
+        "ID": 27700,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductClosedYearsAgo": {
+        "ID": 54265,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCollateralCode": {
+        "ID": 109810,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCourtesyPayLastYear": {
+        "ID": 76000,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCourtesyPayYTD": {
+        "ID": 9760,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCreator": {
+        "ID": 5620,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCredMgrCategory": {
+        "ID": 83245,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductCreditLimit": {
+        "ID": 10795,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductDescription": {
+        "ID": 24595,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductExperianBureauScore": {
+        "ID": 108775,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductFeesLastYear": {
+        "ID": 45985,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductFeesYTD": {
+        "ID": 53920,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductFixedRate": {
+        "ID": 28045,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductGLSuffix": {
+        "ID": 90835,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductGeneralCategory": {
+        "ID": 95320,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductID": {
+        "ID": 62890,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductIndirect": {
+        "ID": 92215,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeDateKey": {
+        "ID": 97735,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeMonth": {
+        "ID": 16315,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeMonthAmount": {
+        "ID": 81865,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeMonthAmountPerTransaction": {
+        "ID": 21490,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeParentAccount": {
+        "ID": 80830,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeParentID": {
+        "ID": 95665,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeProductMonthAmount": {
+        "ID": 76345,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeProductMonthTransactionCount": {
+        "ID": 3550,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeProductType": {
+        "ID": 31150,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeTotalMonthTransactionCount": {
+        "ID": 63580,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterchangeYear": {
+        "ID": 66685,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterestFromOpen": {
+        "ID": 72205,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterestLastYear": {
+        "ID": 60130,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterestRate": {
+        "ID": 56680,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterestUnpaid": {
+        "ID": 105325,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductInterestYTD": {
+        "ID": 69100,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductLastPaymentDate": {
+        "ID": 17695,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductLateChargeLastYear": {
+        "ID": 19075,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductLateChargeUnpaid": {
+        "ID": 103255,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductLateChargeYTD": {
+        "ID": 39430,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductLoanType4Digit": {
+        "ID": 40465,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductLoanTypesId": {
+        "ID": 59440,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductMaturityDate": {
+        "ID": 20455,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductMaxTerm": {
+        "ID": 52195,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductMinimumBalance": {
+        "ID": 41500,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductMixedTiers": {
+        "ID": 1825,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductMonthsOpened": {
+        "ID": 63925,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductNSFLastYear": {
+        "ID": 26665,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductNSFYTD": {
+        "ID": 23560,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductNewBalanceSheetCategory": {
+        "ID": 109465,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductNewGLNumber": {
+        "ID": 40120,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOLDGLNumber": {
+        "ID": 24250,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOpenDate": {
+        "ID": 78070,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOpenedYearsAgo": {
+        "ID": 16660,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOriginalBalance": {
+        "ID": 91180,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOverdraftFeeLastYear": {
+        "ID": 38395,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOverdraftFeeYTD": {
+        "ID": 9070,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductOverdraftTolerance": {
+        "ID": 96010,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductParentAccount": {
+        "ID": 96700,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductPartialChargeOffFlag": {
+        "ID": 89455,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductPayment": {
+        "ID": 62545,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductPaymentsMade": {
+        "ID": 117745,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductPrematureCloseFlag": {
+        "ID": 90145,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductRenewType": {
+        "ID": 49435,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductReserveCategory": {
+        "ID": 65995,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductSecured": {
+        "ID": 445,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductServiceClassMCIF": {
+        "ID": 12865,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductSuperCategory": {
+        "ID": 25975,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductSymDescription": {
+        "ID": 112915,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTerm": {
+        "ID": 47710,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTierLevel": {
+        "ID": 50470,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTierLevelBureauTier": {
+        "ID": 48400,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTierLevelExperianTier": {
+        "ID": 52540,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTierLevelFundedTier": {
+        "ID": 91525,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTierLevelParentAccount": {
+        "ID": 117055,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTierLevelProductID": {
+        "ID": 70825,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductType": {
+        "ID": 111880,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "ProductTypeNumber": {
+        "ID": 100840,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionActionCode": {
+        "ID": 85660,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionActionCodeName": {
+        "ID": 23215,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionActivityDate": {
+        "ID": 30460,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionAdjustmentCode": {
+        "ID": 57715,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionAmount": {
+        "ID": 19765,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionBalanceChange": {
+        "ID": 110845,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionBranch": {
+        "ID": 85315,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionCardTransactionFlag": {
+        "ID": 80140,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionCommentCode": {
+        "ID": 64960,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionConfirmationSeq": {
+        "ID": 14245,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionDescription": {
+        "ID": 32185,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionDraftNumber": {
+        "ID": 39775,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionEffectiveDate": {
+        "ID": 21835,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionFeeAmount": {
+        "ID": 34945,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionFeeCountBy": {
+        "ID": 106705,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionInterest": {
+        "ID": 31840,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionLastTranDate": {
+        "ID": 48055,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionMicrAcctNum": {
+        "ID": 102910,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionNewBalance": {
+        "ID": 94285,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionParentAccount": {
+        "ID": 92560,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionParentID": {
+        "ID": 62200,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionPostDate": {
+        "ID": 110500,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionPostTime": {
+        "ID": 82900,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionPrevAvailBalance": {
+        "ID": 93940,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionProcessorUser": {
+        "ID": 11830,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionRecurringTran": {
+        "ID": 67375,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionSequenceNumber": {
+        "ID": 50125,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionSourceCode": {
+        "ID": 22525,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionSourceCodeName": {
+        "ID": 12520,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionTracerNumber": {
+        "ID": 55645,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionTransferCode": {
+        "ID": 102565,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionType": {
+        "ID": 52885,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionUserNumber": {
+        "ID": 88420,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionUserOverride": {
+        "ID": 43570,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "TransactionVoidCode": {
+        "ID": 98770,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "UniqueID": {
+        "ID": 2515,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "UnsecuredAggregateBalance": {
+        "ID": 58405,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    },
+    "UnsecuredBalanceSSN": {
+        "ID": 114295,
+        "data_governance": {
+            "item_created_date": "2016-06-17",
+            "item_definition": null,
+            "item_last_updated_date": null,
+            "item_owner": null
+        }
+    }
+}
