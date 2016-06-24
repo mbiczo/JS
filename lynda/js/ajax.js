@@ -20,9 +20,15 @@ function appendText(text, textElementType, parentElementID) {
 
 
 
-
 // Create a new xhr request object
-var xhrRequest = new XMLHttpRequest();
+var xhrRequest;
+
+// Check Browser Compatibility
+if (window.XMLHttpRequest) {  // firefox, safari, chrome
+	xhrRequest =  new XMLHttpRequest();
+} else {  // older IE
+	xhrRequest = ActiveXObject( "Microsoft.XMLHTTP" );
+}
 
 // Configure request object
 xhrRequest.open("GET", "http://localhost:8000/data/data.txt", true);
