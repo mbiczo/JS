@@ -25,34 +25,17 @@ function appendText(text, textElementType, parentElementID) {
 var xhrRequest = new XMLHttpRequest();
 
 // Configure request object
-xhrRequest.open("GET", "http://localhost:8000/data/data.txt", false);
+xhrRequest.open("GET", "http://localhost:8000/data/data.txt", true);
+
+// Create handle for response
+xhrRequest.onreadystatechange = function() {
+	// Check if successful
+	if ( (xhrRequest.readyState === 4) && ( xhrRequest.status===200)) {
+	
+		// Append text, to text element, to parent element
+		appendText(xhrRequest.responseText, "p", "body");
+	}
+}
 
 // Send request object
 xhrRequest.send();
-
-// Check if successful
-if ( (xhrRequest.readyState === 4) && ( xhrRequest.status===200)) {
-	
-	appendText(xhrRequest.responseText, "p", "body");
-	
-	
-	
-	
-	/*	
-	// Output the request object and response text
-	console.log(xhrRequest);
-	console.log(xhrRequest.responseText);
-
-	// Get and Create page elements
-	var parentElement = document.getElementById("body");
-	var ajaxElement = document.createElement("p");
-	var ajaxText = document.createTextNode(xhrRequest.responseText);
-
-	// Append elements to page
-	ajaxElement.appendChild(ajaxText);
-	parentElement.appendChild(ajaxElement);
-	*/
-	
-	}
-
-
