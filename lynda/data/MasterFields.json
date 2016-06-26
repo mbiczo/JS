@@ -3,7 +3,7 @@
         "ID": 59785,
         "data_governance": {
             "item_created_date": "2016-06-17",
-            "item_definition": null,
+            "item_definition": 42,
             "item_last_updated_date": null,
             "item_owner": null
         }
@@ -21,7 +21,7 @@
         "ID": 15970,
         "data_governance": {
             "item_created_date": "2016-06-17",
-            "item_definition": null,
+            "item_definition": [1,2,3],
             "item_last_updated_date": null,
             "item_owner": null
         }
