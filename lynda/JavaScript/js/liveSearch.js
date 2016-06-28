@@ -18,6 +18,7 @@ $('#search').keyup(function() {
 	
 	
 	// Load data JSON datasource
+	// NOTE: CHANGE TO .ajax SO THAT IT IS MORE VERSITILE
 	$.getJSON('../data/MasterFields.json', function(data) {
 	
 	// DEBUG: print object
@@ -36,29 +37,28 @@ $('#search').keyup(function() {
 				
 				// DEBUG: output subkey value
 				//console.log(val.data_governance.item_definition);
+
 				
+				// NOTE: SWITCH TO jQUERY SHORTHAND!!
 				var outputListElmt = document.createElement("li");
 				var headerItemElmt = document.createElement("p");
 				var itemDefinitionElmt = document.createElement("p");
 				
 				var headerItem = document.createTextNode(key);
 				var itemDef = document.createTextNode(val.data_governance.item_definition);
-				
+				var itemDefTitle = document.createTextNode('Item Definition: ');
+					
+					
+				headerItemElmt.className = "bold";
 				headerItemElmt.appendChild(headerItem);
+				itemDefinitionElmt.appendChild(itemDefTitle);
+				itemDefinitionElmt.appendChild(itemDef);
 				outputListElmt.appendChild(headerItemElmt);
+				outputListElmt.appendChild(itemDefinitionElmt);
 				outputUlElem.appendChild(outputListElmt);
 				
-				
-				
-	
-					/*  consider printing sub items (in a better way) 
-					// Print out each data gov item and value
-					$.each(val, function(subKey, subVal) {
-						//console.log(subKey, subVal);
-						// consider indexing [shifting] or splitting on CapS
-					});
-					*/
-				
+				//$("resultsContainer").html("<p class= 'bold'>" + headerItem+"</p>");
+							
 			} // if search matches
 		
 		});  //.each header
