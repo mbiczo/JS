@@ -1,4 +1,7 @@
-// liveSearch: simple app that dynamically updates items as the user types
+
+/************************************************************************
+liveSearch: simple app that dynamically updates items as the user types
+************************************************************************/
 
 
 // Wait until the whole doc is loaded
@@ -7,17 +10,12 @@ $("document").ready(function() {
 	// Verify jQuery installed
 	console.log("hello console, I'm installed!");
 	
-	// Load Data in the background
-	getData();
-});
-
-
-// Ajax function to GET data
-function getData(){
+	// Setup variables
 	var $searchResults = $("#searchResults");
 	var searchField = $('#search').val().replace(/\s/g, "+");  //replace global spaces with '+'
 	var myExp = new RegExp(searchField, "i");  //convert to case-insensitive regex
-		
+	
+	// Ajax function to GET data
 	$.ajax({
 		url: "http://localhost:8000/jQuery/data/MasterFields.json",
 		type: "GET",
@@ -38,11 +36,22 @@ function getData(){
 										"</a>" + 
 										"</p>");
 
-			});
-		},
+			}); //for each
+			
+		}, // on success
+		
+		
+		// Run this when there's an error
 		error: function() {
+			
 			alert("There's been an error");
-		}
-	});
-}
+			
+		}  //on error
+		
+	}); //.ajax
+	
+}); //document.ready
+
+
+
 
