@@ -3,6 +3,7 @@
 liveSearch: simple app that dynamically updates items as the user types
 ************************************************************************/
 
+//TODO: Functionize
 
 // Wait until the whole doc is loaded
 $("document").ready(function() {
@@ -41,7 +42,8 @@ $("document").ready(function() {
 						// consider creating a function
 						outputList +=	"<p>Item Definition: " + 
 												"<a href='#' id= " + 
-												item.ID +" >" + 
+												item.ID +
+												">" + 
 												item.data_governance.item_definition + 
 												"</a>" + 
 												"</p>";
@@ -66,6 +68,40 @@ $("document").ready(function() {
 		}); //.ajax
 
 	});  //on.keyup
+	
+	$("#ajaxTest").click( function() {
+		console.log("You clicked me!");
+		
+		var testData= {
+			name: "testName",
+			dept: "dept",
+		}
+		
+		console.log(testData);
+		
+		$.ajax({
+			type: "POST",
+			url: "http://localhost:8000/jQuery/data/",
+			data: testData,
+			dataType: "JSON",
+		});
+		
+		
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		
 }); //document.ready
 
