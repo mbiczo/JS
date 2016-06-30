@@ -11,6 +11,12 @@ $("document").ready(function() {
 	// Verify jQuery installed
 	console.log("hello console, I'm installed!");
 	
+	// Add click event listener to grab ID
+	document.addEventListener('click', function(e) {
+		var item_id = e.target.id;
+		//console.log(item_id);
+	});
+	
 	// When enduser types into search box, run ajax
 	$('#search').keyup(function() {
 		
@@ -35,18 +41,18 @@ $("document").ready(function() {
 					
 					// Check for matches
 					if ( header.search(myExp) != -1 ) {
+					
+						var item_def = item.data_governance.item_definition;
 						
 						//var itemInfo = {'ItemName': header, 'ItemID': item.ID};
 						outputList += "<p class= 'bold'>" + header + "</p>";
 
 						// consider creating a function
-						outputList +=	"<p>Item Definition: " + 
-												"<a href='#' id= " + 
-												item.ID +
-												">" + 
-												item.data_governance.item_definition + 
-												"</a>" + 
-												"</p>";
+						outputList += "<p>Item Definition: <a href = '#' id = " + 
+						item.ID + 
+						">" + 
+						item_def + 
+						"</a></p>";
 
 					} // if match
 					
@@ -69,42 +75,9 @@ $("document").ready(function() {
 
 	});  //on.keyup
 	
-	$("#ajaxTest").click( function() {
-		console.log("You clicked me!");
 		
-		var testData= {
-			name: "testName",
-			dept: "dept",
-		}
-		
-		console.log(testData);
-		
-		$.ajax({
-			type: "POST",
-			url: "http://localhost:8000/jQuery/data/",
-			data: testData,
-			dataType: "JSON",
-		});
-		
-		
-	});
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 		
 }); //document.ready
-
 
 
 
